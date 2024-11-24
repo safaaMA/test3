@@ -147,8 +147,7 @@ img {
 .section {
     margin: auto;
     width: 90%;
-    display: flex
-;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -157,15 +156,14 @@ img {
 }
 
 .techer {
-    display: flex
-;
+    display: flex;
     align-items: center;
     background: aliceblue;
-    width: 356px;
+    width: 292px;
     padding: 10px;
     border-radius: 18px;
     margin: 12px;
-    height: 400px;
+    height: 290px;
     flex-direction: column;
     transition: 0.5s all;
     color: black;
@@ -183,19 +181,18 @@ img {
 
 
 .techer-title {
-    font-size: 28px;
+    font-size: 17px;
 }
 
 .techer-image.online {
-    width: 412px;
+    width: 300px;
 }
 
 .techer-image.help {
-    width: 245px;
+    width: 110px;
 }
-
 .techer-image.blog {
-    width: 257px;
+    width: 206px;
 }
 
 .techer-title.online {
@@ -209,7 +206,7 @@ img {
 }
 
 .techer-title.online {
-    font-size: 20px;
+    font-size: 13px;
     margin: 0px 22px;
     text-align: center;
 }
@@ -327,32 +324,118 @@ img {
 .cover-end {
     text-align: -webkit-right;
 }
+
 @media only screen and (max-width: 800px) {
     .interface {
         flex-direction: column;
         align-items: center;
     }
+
     .mainImage {
         width: 54.4%;
     }
+
     .information {
         width: 100%;
         padding: 36px 36px 0px 36px;
         border-radius: 14px;
     }
+
     .Us {
         flex-direction: column;
     }
+
     .box-details {
         width: 100%;
     }
+
     .photo {
-        width:100%;
+        width: 100%;
     }
+
     .footer-det {
         TEXT-ALIGN: center;
     }
+
     .e {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 694px) {
+    .techer {
+        width: 220px;
+        height: 219px;
+    }
+    
+    .techer-image.online {
+        width: 193px;
+    }
+    
+    .techer-title.online {
+        font-size: 11px;
+    }
+
+    .techer-image.blog {
+        width: 153px;
+    }
+    
+    .techer-image.boy {
+        width: 176px;
+    }
+
+    .techer-title {
+        font-size: 12px;
+    }
+
+    .techer-image.help {
+        width: 124px;
+    }
+}
+
+@media only screen and (min-width: 358px)  {
+    .techer {
+        width: 131px;
+        height: 166px;
+    }
+    
+    .techer-title {
+        font-size: 9px;
+    }
+
+    .techer-image.online {
+        width: 147px;
+    }
+
+    .techer-title.online {
+        font-size: 6px;
+    }
+
+    .techer-image.group {
+        width: 126px;
+    }
+    
+    .techer-image.blog {
+        width: 114px;
+    }
+    
+    .techer-image.boy {
+        width: 106px;
+    }
+    
+    .techer-title {
+        font-size: 9px;
+    }
+    
+    .phoneNum,
+    .location {
+        font-size: 7px;
+    }
+    
+}
+@media only screen and (min-width: 1258px) {
+    .techer {
+        width: 336px;
+        height: 166px;
     }
 }
