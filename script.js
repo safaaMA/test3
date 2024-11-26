@@ -57,23 +57,3 @@ document.getElementById('right-nav').addEventListener('click', function (event) 
 });
 
 
-document.getElementById('btn').addEventListener('click', function (event) {
-    var pop = document.getElementById('pop');
-    // التبديل بين عرض القائمة الجانبية وإخفائها
-    if (pop.style.display === 'block') {
-        pop.style.display = 'none';
-    } else {
-        pop.style.display = 'block';
-    }
-    // منع انتشار الحدث لضمان عدم تفعيل كود النقر على الشاشة كلها
-    event.stopPropagation();
-});
-document.getElementById('close').addEventListener('click', function (event) {
-    var pop = document.getElementById('pop');
-    if (pop.style.display === 'block') {
-        pop.style.display = 'none';
-    } else {
-        pop.style.display = 'block';
-    }
-    event.stopPropagation();
-});

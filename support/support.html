@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../TeacherPage/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../materials/style.css">
     <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesome/css/brands.css" rel="stylesheet">
     <link href="fontawesome/css/solid.css" rel="stylesheet">
@@ -160,6 +161,28 @@
 
         </div>
         <script src="../script.js"></script>
+        <script>
+            document.getElementById('btn').addEventListener('click', function (event) {
+                var pop = document.getElementById('pop');
+                if (pop.style.display === 'block') {
+                    pop.style.display = 'none';
+                } else {
+                    pop.style.display = 'block';
+                }
+                event.stopPropagation();
+            });
+            
+            document.getElementById('close').addEventListener('click', function (event) {
+                var pop = document.getElementById('pop');
+                if (pop.style.display === 'block') {
+                    pop.style.display = 'none';
+                } else {
+                    pop.style.display = 'block';
+                }
+                event.stopPropagation();
+            });
+            
+        </script>
 </body>
 
 </html>

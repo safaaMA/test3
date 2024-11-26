@@ -1,0 +1,131 @@
+img {
+    width: 100%;
+}
+
+a.mtr-action {
+    background: #211d4d;
+    width: 203px;
+    font-size: 10px;
+    padding: 19px;
+    border-radius: 15px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.hover {
+    transform: scale(1);
+    transition: .8s;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.serch {
+    margin: 0px 0px 15px 0px;
+}
+
+.name-mtr {
+    text-align: center;
+}
+
+/* 
+.navBar {
+    display: flex;
+    background: #180831;
+    justify-content: center;
+} */
+
+/* li a {
+    color: #ffffff;
+}
+
+.navBar {
+    background: #180831;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 64%;
+} */
+
+/* .navBar {
+    display: flex;
+    background: #180831;
+    justify-content: center;
+    padding: 14px 4px;
+    margin: 19px 0px 29px 14px;
+}
+
+.set-teachers {
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 212px;
+    color: aliceblue;
+} */
+
+@media only screen and (max-width: 766px) {
+    span.material-symbols-outlined {
+        color: rgb(24, 27, 29);
+    }
+
+    .teachers-box {
+        width: 98%;
+    }
+
+    .name-user {
+        font-size: 11px;
+        color: aliceblue;
+    }
+
+    .material-symbols-outlined.account {
+        color: aliceblue;
+    }
+
+    ul {
+        margin: 13px;
+    }li a {
+        color: #ffffff;
+    }
+
+    div#box-list2 {
+        z-index: 100;
+        width: 97%;
+        margin: 17px 0px;
+    }
+
+    .icon-account {
+        margin: 28px 0px;
+    }
+
+    .deeplist {
+        margin: 0px auto 27px;
+            flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    a.mtr-action {
+        width: 157px;
+
+    }
+}
+
+@media only screen and (max-width:334px) {
+    a.mtr-action {
+        width: 124px;
+    }
+
+}
+
+.set-teachers {
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
