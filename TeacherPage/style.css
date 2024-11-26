@@ -59,6 +59,7 @@ a {
     background: aliceblue;
     padding: 8px 0px;
     border-radius: 14px;
+    display: none;
 }
 
 .logo-nav {
