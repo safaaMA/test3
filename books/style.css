@@ -110,16 +110,16 @@ nav {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
     a.mtr-action {
         width: 157px;
 
     }
 }
 
-@media only screen and (max-width:334px) {
+@media only screen and (max-width:356px) {
     a.mtr-action {
-        width: 124px;
+        width: 130px;
     }
 
 }
