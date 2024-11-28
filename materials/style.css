@@ -97,7 +97,7 @@ nav {
     div#box-list2 {
         z-index: 100;
         width: 97%;
-        margin: 17px 0px;
+        margin: 35px auto;
     }
 
     .icon-account {
