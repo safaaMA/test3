@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TeacherPage/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../materials/style.css">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c84e23e68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title> الدعم الفني</title>
+</head>
+<style>
+    .bank-qus {
+        display: none;
+    }
+
+    @media only screen and (max-width: 766px) {
+        .deeplist {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="navBar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <nav>
+
+
+                <span class="material-symbols-outlined" id="event-list">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <div class="box-list2" id="box-list2">
+                    <div class="account">
+                        <div class="name-user">
+                            <h1>اسم المستخدم</h1>
+                        </div>
+                        <div class="icon-account">
+                            <span class="material-symbols-outlined account">
+                                account_circle
+                            </span>
+                        </div>
+                    </div>
+                    <div class="deeplist">
+
+                        <ul>
+                            <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">المدرسين</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">من نحن</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+        <div class="main-container">
+
+            <div class="teachers-box">
+                <div class="teacher-taitle">
+                    <h1>المدونة</h1>
+                </div>
+                <div class="set-post">
+                    <div class="post">
+                        <div class="image-post">
+                            <img src="../blog-image/1.jpg" alt="">
+                        </div>
+                        <div class="title-post">
+                            <h1>معلم من معالم بغداد</h1>
+                        </div>
+                        <div class="caption-post">
+                            <p>ساحة التحرير ( ساحة الملكة عالية سابقا) هي إحدى الساحات الرئيسية في وسط مركز مدينة بغداد
+                                عاصمة العراق والتي تقع في منطقة الباب الشرقي. كان لهذه الساحة دورٌ مهمٌ في بعض الثورات
+                                والمسيرات والانتفاضات التي شهدتها مدينة بغداد، وسميت بساحة التحرير نسبة إلى التحرر من
+                                الاحتلال والأستعمار الاجنبي</p>
+                        </div>
+                        <div class="comment">
+                            <button id="toggle-comments-btn">عرض التعليقات</button>
+                        </div>
+                        <div class="set-comment" id="comments-section" style="display: none;">
+                            <div class="container-post">
+                            <div class="comment-groub">
+                                <div class="user-comment">
+                                    <div class="name-user-comment">
+                                        <h3>اسم المستخدم</h3>
+                                    </div>
+                                    <div class="user-comment-one">
+                                        <p>هذه نموذج تعليق المستخدم</p>
+                                    </div>
+                                </div>
+                                <div class="user-comment">
+                                    <div class="name-user-comment">
+                                        <h3>اسم المستخدم</h3>
+                                    </div>
+                                    <div class="user-comment-one">
+                                        <p>هذه نموذج تعليق المستخدم</p>
+                                    </div>
+                                </div>
+                                <div class="user-comment">
+                                    <div class="name-user-comment">
+                                        <h3>اسم المستخدم</h3>
+                                    </div>
+                                    <div class="user-comment-one">
+                                        <p>هذه نموذج تعليق المستخدم</p>
+                                    </div>
+                                </div>
+                                <div class="user-comment">
+                                    <div class="name-user-comment">
+                                        <h3>اسم المستخدم</h3>
+                                    </div>
+                                    <div class="user-comment-one">
+                                        <p>هذه نموذج تعليق المستخدم</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-comment">
+                                <form action="" method="post">
+                                    <div class="input-comment-text"><input type="text"></div>
+                                    <div class="input-comment"><input type="submit" value="ارسال"></div>
+                                </form>
+                            </div>
+                            
+                        </div>
+                        
+                        <script>
+                            const toggleButton = document.getElementById("toggle-comments-btn");
+                            const commentsSection = document.getElementById("comments-section");
+                        
+                            toggleButton.addEventListener("click", () => {
+                                if (commentsSection.style.display === "none") {
+                                    commentsSection.style.display = "block";
+                                    toggleButton.textContent = "إخفاء التعليقات";
+                                } else {
+                                    commentsSection.style.display = "none";
+                                    toggleButton.textContent = "عرض التعليقات";
+                                }
+                            });
+                        </script>
+                        
+                    </div>
+               
+                </div>
+            </div>
+
+        </div>
+        <script src="../script.js"></script>
+        <script>
+            document.getElementById('btn').addEventListener('click', function (event) {
+                var pop = document.getElementById('pop');
+                if (pop.style.display === 'block') {
+                    pop.style.display = 'none';
+                } else {
+                    pop.style.display = 'block';
+                }
+                event.stopPropagation();
+            });
+
+            document.getElementById('close').addEventListener('click', function (event) {
+                var pop = document.getElementById('pop');
+                if (pop.style.display === 'block') {
+                    pop.style.display = 'none';
+                } else {
+                    pop.style.display = 'block';
+                }
+                event.stopPropagation();
+            });
+
+        </script>
+</body>
+
+</html>
